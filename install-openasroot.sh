@@ -2,8 +2,10 @@
 # http://elementaryos.stackexchange.com/questions/49/
 sudo sh -c 'echo "[Contractor Entry]
 Name=Open folder as root
-Icon=gksu-root-terminal
+Icon=pantheon-files
 Description=Open folder as root
-MimeType=inode;application/x-sh;application/x-executable;
-Exec=gksu pantheon-files -d %U
+MimeType=inode;
+Exec=pantheon-files-root %U
 Gettext-Domain=pantheon-files" > /usr/share/contractor/openasroot.contract'
+sudo sh -c 'echo "#!/bin/sh
+pkexec \"/usr/bin/pantheon-files\" \"$@\"" > /usr/bin/pantheon-files-root'
