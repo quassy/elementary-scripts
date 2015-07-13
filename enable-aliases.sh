@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt-get install ppa-purge
 echo "# Alias for package management
 alias p+='sudo apt-get install '
 alias p-='sudo apt-get remove '

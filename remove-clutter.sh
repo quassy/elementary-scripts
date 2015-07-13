@@ -1,2 +1,2 @@
 sudo apt-get purge software-center
-sudo apt-get autoremove
+#sudo apt-get autoremove
