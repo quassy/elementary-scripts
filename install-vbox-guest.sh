@@ -7,7 +7,7 @@ fi
 sudo mkdir /media/vbox-guest
 sudo mount -o loop ./vbox-guest.iso /media/vbox-guest
 cd /media/vbox-guest
-if [ sudo sh ./VBoxLinuxAdditions.run ] then
+if [ sudo sh ./VBoxLinuxAdditions.run ]; then
   sudo umount /media/vbox-guest
   sudo rmdir /media/vbox-guest
 fi
