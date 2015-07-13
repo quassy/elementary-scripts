@@ -1,0 +1,1 @@
+Short code snippets for elementary OS Freya, mainly to install apps from `git`.
