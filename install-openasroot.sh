@@ -8,4 +8,4 @@ MimeType=inode;
 Exec=pantheon-files-pkexec %U
 Gettext-Domain=pantheon-files" > /usr/share/contractor/openasroot.contract'
 sudo sh -c 'echo "#!/bin/sh
-pkexec \"/usr/bin/pantheon-files\" \"\$\@"" > /usr/bin/pantheon-files-pkexec'
+pkexec \"/usr/bin/pantheon-files\" \"\$@\"" > /usr/bin/pantheon-files-pkexec'
