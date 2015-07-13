@@ -1,3 +1,4 @@
+#!/bin/bash
 # http://elementaryos.stackexchange.com/questions/49/
 sudo sh -c 'echo "[Contractor Entry]
 Name=Open folder as root

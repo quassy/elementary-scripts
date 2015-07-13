@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ~/Downloads/
 if [ ! -a ./vbox-guest.iso ]; then
   wget -O ./vbox-guest.iso "http://download.virtualbox.org/virtualbox/5.0.0/VBoxGuestAdditions_5.0.0.iso"
