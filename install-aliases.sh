@@ -1,4 +1,4 @@
-# Alias for package management
+echo "# Alias for package management
 alias p+='sudo apt-get install '
 alias p-='sudo apt-get remove '
 alias p--='sudo apt-get purge '
@@ -13,4 +13,4 @@ r-() {
 }
 r--() {
   sudo ppa-purge $1 && sudo apt-get update
-}
+}" >> ~/.bash_aliases
