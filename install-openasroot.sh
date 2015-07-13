@@ -1,4 +1,3 @@
-sudo touch /usr/share/contractor/openasroot.contract
 sudo echo "[Contractor Entry]
 Name=Open folder as root
 Icon=gksu-root-terminal
