@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "This will restart your system, press Ctrl+C to abort"
 cd ~/Downloads/
-if [ ! -a ./vbox-guest.iso ]; then
+if [ ! -f ./vbox-guest.iso ]; then
   wget -O ./vbox-guest.iso "http://download.virtualbox.org/virtualbox/5.0.0/VBoxGuestAdditions_5.0.0.iso"
 fi
 echo "8d9f1d600ff65d1230b9b4e386f2ad48 vbox-guest.iso" > ./vbox-guest.iso.md5
