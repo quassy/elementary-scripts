@@ -4,9 +4,10 @@ sudo apt-get install html2text build-essential cmake valac libgirepository1.0-de
 mkdir ~/bzr/
 cd ~/bzr/
 bzr branch lp:feedreader
+# bzr merge?
 mkdir feedreader/build
 cd feedreader/build
 cmake -DWITH_LIBUNITY=OFF -DCMAKE_INSTALL_PREFIX=/usr ..
 make
-sudo checkinstall
+sudo checkinstall --pkgversion=999-bzr
 feedreader
